@@ -7,14 +7,26 @@
 
 # hlsearch on (H) or off (h):
 ~H
+# Last Search Pattern:
+~MSle0~/install
+
 # Last Substitute String:
 $.undefined.net
 
 # Command Line History (newest to oldest):
-:x
 :q
+:h omnicpp-installation
+:h omnicppcomplete
+:helptags /home/chen/.vim/doc
+:TlistToggle
+:x
+:helptags .
+:helptags
+:h :omnicppcomplete
 
 # Search String History (newest to oldest):
+?/install
+?/Installation
 ? @JAVA_PACKAGE@
 
 # Expression History (newest to oldest):
@@ -30,28 +42,169 @@ $.undefined.net
 !GVIMRC_EXTRA	STR	~/.vim/local/gvimrc
 
 # File marks:
-'0  3  4  ~/.vim/.gitignore
-'1  48  0  ~/.vim/vimrc
-'2  1  0  ~/.vim/vimrc
+'0  1  0  ~/.vim/doc/tags
+'1  1  0  ~/Programs/fifo/client.c
+'2  60  20  ~/.vim/plugin/taglist.vim
+'3  1  0  ~/.vim/__Tag_List__
+'4  1  0  ~/.vim/README
+'5  1  0  ~/.vim/README.md
+'6  239  24  ~/.vim/vimrc
+'7  3  4  ~/.vim/.gitignore
+'8  48  0  ~/.vim/vimrc
+'9  1  0  ~/.vim/vimrc
 
 # Jumplist (newest first):
+-'  1  0  ~/.vim/doc/tags
+-'  1  0  ~/Programs/fifo/client.c
+-'  60  20  ~/.vim/plugin/taglist.vim
+-'  21  0  ~/.vim/plugin/taglist.vim
+-'  1  0  ~/.vim/plugin/taglist.vim
+-'  1  0  ~/.vim/__Tag_List__
+-'  2  0  ~/.vim/__Tag_List__
+-'  49  0  ~/.vim/plugin/taglist.vim
+-'  41  0  ~/.vim/plugin/taglist.vim
+-'  1  0  ~/.vim/README
+-'  1  0  ~/.vim/README.md
+-'  76  0  ~/.vim/README
+-'  239  24  ~/.vim/vimrc
+-'  1  0  ~/.vim/vimrc
 -'  3  4  ~/.vim/.gitignore
 -'  1  0  ~/.vim/.gitignore
 -'  48  0  ~/.vim/vimrc
+-'  3  4  ~/.vim/.gitignore
+-'  1  0  ~/.vim/.gitignore
+-'  239  24  ~/.vim/vimrc
 -'  1  0  ~/.vim/vimrc
+-'  3  4  ~/.vim/.gitignore
+-'  1  0  ~/.vim/.gitignore
 -'  48  0  ~/.vim/vimrc
+-'  3  4  ~/.vim/.gitignore
+-'  1  0  ~/.vim/.gitignore
+-'  239  24  ~/.vim/vimrc
 -'  1  0  ~/.vim/vimrc
+-'  3  4  ~/.vim/.gitignore
+-'  1  0  ~/.vim/.gitignore
+-'  48  0  ~/.vim/vimrc
+-'  3  4  ~/.vim/.gitignore
+-'  1  0  ~/.vim/.gitignore
+-'  239  24  ~/.vim/vimrc
+-'  1  0  ~/.vim/vimrc
+-'  3  4  ~/.vim/.gitignore
+-'  1  0  ~/.vim/.gitignore
+-'  48  0  ~/.vim/vimrc
+-'  3  4  ~/.vim/.gitignore
+-'  1  0  ~/.vim/.gitignore
+-'  1  0  ~/.vim/README.md
+-'  239  24  ~/.vim/vimrc
+-'  1  0  ~/.vim/vimrc
+-'  3  4  ~/.vim/.gitignore
+-'  1  0  ~/.vim/.gitignore
+-'  48  0  ~/.vim/vimrc
+-'  3  4  ~/.vim/.gitignore
+-'  1  0  ~/.vim/.gitignore
+-'  239  24  ~/.vim/vimrc
+-'  1  0  ~/.vim/vimrc
+-'  3  4  ~/.vim/.gitignore
+-'  1  0  ~/.vim/.gitignore
+-'  48  0  ~/.vim/vimrc
+-'  3  4  ~/.vim/.gitignore
+-'  1  0  ~/.vim/.gitignore
+-'  239  24  ~/.vim/vimrc
+-'  1  0  ~/.vim/vimrc
+-'  3  4  ~/.vim/.gitignore
+-'  1  0  ~/.vim/.gitignore
+-'  48  0  ~/.vim/vimrc
+-'  3  4  ~/.vim/.gitignore
+-'  1  0  ~/.vim/.gitignore
+-'  239  24  ~/.vim/vimrc
+-'  1  0  ~/.vim/vimrc
+-'  3  4  ~/.vim/.gitignore
+-'  1  0  ~/.vim/.gitignore
+-'  48  0  ~/.vim/vimrc
+-'  3  4  ~/.vim/.gitignore
+-'  1  0  ~/.vim/.gitignore
+-'  1  0  ~/.vim/README.md
+-'  239  24  ~/.vim/vimrc
+-'  1  0  ~/.vim/vimrc
+-'  3  4  ~/.vim/.gitignore
+-'  1  0  ~/.vim/.gitignore
+-'  48  0  ~/.vim/vimrc
+-'  3  4  ~/.vim/.gitignore
+-'  1  0  ~/.vim/.gitignore
+-'  239  24  ~/.vim/vimrc
+-'  1  0  ~/.vim/vimrc
+-'  3  4  ~/.vim/.gitignore
+-'  1  0  ~/.vim/.gitignore
+-'  48  0  ~/.vim/vimrc
+-'  3  4  ~/.vim/.gitignore
+-'  1  0  ~/.vim/.gitignore
+-'  239  24  ~/.vim/vimrc
+-'  1  0  ~/.vim/vimrc
+-'  3  4  ~/.vim/.gitignore
+-'  1  0  ~/.vim/.gitignore
+-'  48  0  ~/.vim/vimrc
+-'  3  4  ~/.vim/.gitignore
+-'  1  0  ~/.vim/.gitignore
+-'  239  24  ~/.vim/vimrc
+-'  1  0  ~/.vim/vimrc
+-'  3  4  ~/.vim/.gitignore
+-'  1  0  ~/.vim/.gitignore
+-'  48  0  ~/.vim/vimrc
+-'  3  4  ~/.vim/.gitignore
+-'  1  0  ~/.vim/.gitignore
 
 # Buffer list:
-%~/.vim/.gitignore	3	4
+%~/.vim/doc/tags	1	0
 
 # History of marks within files (newest to oldest):
+
+> ~/.vim/doc/omnicppcomplete.txt
+	"	265	60
+
+> /usr/share/vim/vim72/doc/tagsrch.txt.gz
+	"	401	10
+	.	834	0
+	+	834	0
+
+> ~/.vim/doc/tags
+	"	1	0
+
+> ~/Programs/fifo/client.c
+	"	1	0
+
+> ~/.vim/plugin/taglist.vim
+	"	60	20
+
+> ~/Programs/signal/hello.c
+	"	1	0
+
+> ~/test
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+
+> ~/__Tag_List__
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/.vim/__Tag_List__
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/.vim/README
+	"	21	0
+
+> ~/.vim/README.md
+	"	1	0
+
+> ~/.vim/vimrc
+	"	239	24
 
 > ~/.vim/.gitignore
 	"	3	4
 	^	3	5
 	.	3	4
 	+	3	4
-
-> ~/.vim/vimrc
-	"	48	0
